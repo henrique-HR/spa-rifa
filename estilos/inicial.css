@@ -2,38 +2,64 @@
 :root{
     --font: 'charmonman', cursive ;
     
+}*{
+    margin: 0%;
+    padding: 0%;
 }
 body{  /* geral */
-    background-image:url('../background/pexels-ylanite-koppens-776635.jpg');
-    background-color: rgba(255, 255, 255, 0.941);
+    
+
+    background:rgba(195, 74, 128, 0.71) url('../background/pexels-ylanite-koppens-776635.jpg') bottom left no-repeat fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left top ;
-    background-attachment: fixed;
-    position: relative;
     min-height: 100vh;
     color: black;
     background-attachment: fixed;
-    margin: 0px;
     
    
   
 }header{
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 150px;
+    margin-bottom: 1px;
     background-color: rgba(179, 13, 91, 0.721);
-    padding-top: 1px;
-   
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.5em;
+    line-height: 2em;
     
 }main{
     display: block;
     margin: auto;
     text-align: center;
     max-width: 600px;
-    min-height: 60vh;
+    min-height: 68vh;
+    background-color:rgba(179, 13, 91, 0.721) ;
+    
 
 }div.imagen{
+    background-image: url('../background/menina.PNG');
+    background-size: cover;
+
     display: block;
     font-size: 1.5em;
     font-weight: 500;
     margin: auto;
-    width: 500px ;
+    height:150px;
+    width: 250px;
+}.msg{
+    font-family: cursive;
+    font-size: 1.3em;
+    padding: 0px 10px 0px 10px;
+
+}main{
+    border-radius: 5%;
+}.obg{
+    display: block;
+    padding-bottom: 15px;
+}footer{
+    margin-top: 1px;
+    background-color: rgba(179, 13, 91, 0.721);
+    text-align: center;
+    font: normal bold 2em var(--font);
 }

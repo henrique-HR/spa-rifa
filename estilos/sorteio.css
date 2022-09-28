@@ -1,25 +1,22 @@
-:root{
-    --font: 'charmonman', cursive ;
-    
+#vamos{
+    display: block;
+    margin-top: -30px;
 }
-body{  /* geral */
-    background-image:url('../background/pexels-ylanite-koppens-776635.jpg');
-    background-color: rgba(255, 255, 255, 0.941);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left top ;
-    background-attachment: fixed;
-    position: relative;
-    min-height: 100vh;
-    color: black;
-    background-attachment: fixed;
-    margin: 0px;
+
+table#sorteados{
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    border: 0.5px solid ;
+    border-collapse: collapse;
+    font-size: 1.3em;
+    background-color: rgba(240, 248, 255, 0.724);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
+   
+}
+
+.ganhador,.no,.tel,.premio{
+    border:0.5px solid black;
     
-   
-  
-}header{
-    background-color: rgba(179, 13, 91, 0.721);
-    padding-top: 1px;
-   
     
 }
