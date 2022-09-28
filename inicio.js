@@ -5,6 +5,6 @@ const main = window.document.querySelector("#root")
 
 window.addEventListener("load", () =>{
 
-        main.appendChild(sorteio());
+        main.appendChild(home());
 
 })

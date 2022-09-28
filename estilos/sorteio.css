@@ -11,7 +11,7 @@ table#sorteados{
     border-collapse: collapse;
     font-size: 1.3em;
     background-color: rgba(240, 248, 255, 0.724);
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.459);
+    box-shadow: inset 0px 0px 20px 1px rgba(0, 0, 0, 0.818);
    
 }
 
