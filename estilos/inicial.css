@@ -53,7 +53,7 @@ body{  /* geral */
 100%{
         transform: scale(1);
     }
-} main{
+}main{
     display: block;
     margin: auto;
     text-align: center;
@@ -69,13 +69,13 @@ body{  /* geral */
 }div.imagen{
     background-image: url('../background/menina.PNG');
     background-size: cover;
-
     display: block;
     font-size: 1.5em;
     font-weight: 500;
     margin: auto;
     height:150px;
     width: 250px;
+    box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.065);
 }.msg{
     font-family: cursive;
     font-size: 1.3em;
@@ -94,5 +94,5 @@ body{  /* geral */
     margin-top: 1px;
     background-color: rgba(179, 13, 91, 0.721);
     text-align: center;
-    font: normal bold 2em var(--font);
+    font: normal bold 2em small-caps;
 }

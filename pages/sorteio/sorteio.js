@@ -1,4 +1,4 @@
-export default()=>{
+export default()=>{ 
 const container = document.createElement('div')
 
 const template = `<div class="imagen">
