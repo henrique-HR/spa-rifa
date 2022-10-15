@@ -1,7 +1,7 @@
 export default()=>{
-    const part =[
-    {
-        numero:1,
+    const  participante =
+    [
+     {   numero:1,
         nome:"julio",
         telefone:9968246953
     },
@@ -15,37 +15,37 @@ export default()=>{
         nome:'henirque' ,
         telefone:9968246953
     },
-{
+    {
         numero:4,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:5,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:6,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:7,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:8,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:9,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:10,
         nome:'julio' ,
         telefone:9968246953
@@ -54,12 +54,12 @@ export default()=>{
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:12,
         nome:'julio' ,
         telefone:9968246953
     },
-{
+    {
         numero:13,
         nome:'julio' ,
         telefone:9968246953
@@ -416,7 +416,5 @@ export default()=>{
    
 
 ]
-return part 
+return participante
 }
-
-   
