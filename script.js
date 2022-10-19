@@ -10,10 +10,12 @@ const escolher=()=>{
   
   const  participante =
     [
-    {   numero:1,
+    {   
+        numero:1,
         nome:"ana paula ",
         telefone:'****1295'
-    },{   numero:2,
+    },{  
+        numero:2,
         nome:'samara' ,
         telefone:'****2959'
     },{
@@ -21,10 +23,9 @@ const escolher=()=>{
         nome:'mirian' ,
         telefone: '****6337'
     },{
-      numero:6,
-      nome:'penha ' ,
-      telefone:'****2776'
-        
+        numero:6,
+        nome:'penha ' ,
+        telefone:'****2776'
     },{
         numero:9,
         nome:'ana lucia ' ,
@@ -34,9 +35,9 @@ const escolher=()=>{
         nome:'juliana ' ,
         telefone:'****7408'
     },{
-      numero:11,
-      nome:'juliana ' ,
-      telefone:'****7408'
+        numero:11,
+        nome:'juliana ' ,
+        telefone:'****7408'
     },{
         numero:13,
         nome:'eduardo' ,
@@ -54,6 +55,10 @@ const escolher=()=>{
         nome:'betania' ,
         telefone:'****5055'
     },{
+        numero:22,
+        nome:'renan',
+        telefone:'****0854'
+    },{
         numero:23,
         nome:'vilmara' ,
         telefone:'****0345'
@@ -66,9 +71,9 @@ const escolher=()=>{
         nome:'elisangela' ,
         telefone:'****6057'
     },{
-      numero:36,
-      nome:'caua',
-      telefone:'****4582'
+        numero:36,
+        nome:'caua',
+        telefone:'****4582'
     },{
         numero:56,
         nome:'elita' ,
@@ -76,7 +81,7 @@ const escolher=()=>{
     },{
         numero:66,
         nome:'cleide' ,
-        telefone:'***1102'
+        telefone:'****1102'
     },{
         numero:100,
         nome:'ana carla',
@@ -119,7 +124,7 @@ const escolher=()=>{
 }
 const sortear =()=>{
 
- set = setInterval(escolher,200)
+ set = setInterval(escolher,100)
 
 }
 const parar = ()=>{
